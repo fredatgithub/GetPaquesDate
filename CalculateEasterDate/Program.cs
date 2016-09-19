@@ -3,9 +3,9 @@ using System.Globalization;
 
 namespace CalculateEasterDate
 {
-  class Program
+  internal class Program
   {
-    static void Main(string[] args)
+    private static void Main()
     {
       Console.WriteLine("le 12/4/2009 doit être paques");
       Console.WriteLine(GetPaquesDate(2009).ToString(CultureInfo.CurrentCulture));

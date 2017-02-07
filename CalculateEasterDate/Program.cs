@@ -16,6 +16,7 @@ namespace CalculateEasterDate
 
     private static DateTime GetPaquesDate(int annee)
     {
+      // from VBA code
       //a % = An % Mod 19                               //'a = 2009 modulo 19 = 14
       //b % = An % \ 100                                //'b = 2009 / 100 = 20
       //C % = An % Mod 100                              //'c = 2009 modulo 100 = 09
